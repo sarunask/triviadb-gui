@@ -18,6 +18,7 @@ type (
 		Question         string   `json:"question"`
 		CorrectAnswer    string   `json:"correct_answer"`
 		IncorrectAnswers []string `json:"incorrect_answers"`
+		CustomerAnswer   string   `json:"canswer,omitempty"`
 	}
 
 	Results struct {
